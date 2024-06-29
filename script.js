@@ -4154,19 +4154,18 @@ function showPerformanceAnalysis() {
 <!-- Bar Graph -->
           <div id="overallAnalysisBarChart" class="chart-container"></div>
 
-          <div id="chartContainer">
-<h2>Time Spent per Question</h2>
+
+<h2 style="text-align: center; margin:5px;">Time Spent per Question</h2>
 <div id="timeAnalysisChart" class="chart-container"></div>
 <div id="pagination">
 <button id="prevBtn" class="disabled"><i class="fas fa-arrow-left"></i></button>
 <span id="pageNumbers"></span>
 <button id="nextBtn"><i class="fas fa-arrow-right"></i></button>
 </div>
-</div>
 
 
- <div id="filterContainer">
-<h2>Filtering Questions By Condition</h2>
+
+<h2 style="text-align:center;margin : 5px">Filtering Questions By Condition</h2>
 <div id="filter-container">
 <div id="filter-button">Filter Options</div>
 <div class="dropdown-content">
@@ -4191,7 +4190,6 @@ function showPerformanceAnalysis() {
 </div>
 <div class="selected-filters" id="selected-filters"></div>
 <div id="question-box-container" class="analysis-content2"></div>
-</div>
 </div>
 
 <div class="graph">
