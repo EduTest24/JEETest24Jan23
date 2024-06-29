@@ -1614,8 +1614,10 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlsfNQUOtTTvNpqcWFUGrSPya4ykQeUJmHJDOrGOQuw_LhJSnA_kAVgMezDgT0bE7RhRnB246ypXdLUUwP6b2n62yK-G5XxJlpTbg-BjNgfkUe1AJVwjMKv5UDTVAXbmk3p-xYycHjYmP73KvWdm08UHeDEZRZ75ENpNvJBfLHIY3L5sMtJivLqv8t1wg/s1600/43-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Surface Chemistry"],
+    topics: [
+      "Colloids - Colligative Properties, Electrokinetic Potential (Zeta Potential)",
+    ],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1655,8 +1657,10 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju4y5svJBgUCxR-HBESzPFTmNJwC-herHMm6tT6hCYOYyI6UtzrjdVqDEhRIoJYhgTXHtXMydqQ1SN93xJpRnM-qBEPtQKxvkjRji8Za32y4cS9847v7sEDvfIaVMZfml7EOYR5hFwSz-f5Rfutrl-GO_F_ybiZImv9BRft1ABDmgVQPYX9jtMS9Olx8U/s1600/44-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["The s-Block Elements"],
+    topics: [
+      " Compounds of s-Block Elements - Reactions of Beryllium Compounds",
+    ],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1778,8 +1782,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTMwCDGoPDoKMUjGFjkgMyr1tgRmCOFqtLoBuEU9jBSA1SkeCgbPagfKTUuFsUAd4UT_waX8p6RWb-iaz3vD_rlg3V6i-xJP2r8zMLcTxVyoIPpX_b4-NJq1jaP_7t-yrrluR4AMy4UzTpvMl3qFWmErta1H-pIbk6C0uhP9uHCuATSPi30V67YaMwGb4/s1600/47-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Hydrogen"],
+    topics: ["Structure of Water, Hydrogen Bonding in Water"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1819,8 +1823,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi027D9DhBCOuoq4SFAmcXECTsjmSMh3a3yNnDg78Uvw3V1wzqjCpjh2nwTJpOgz1PT-bMPR_jaVEmMWWRpgOG86CEFoDN2kquZ_9yIA_EZSBvafTn6lWofsmeI8gFpRD62FyCG0k2wnCQL2S_1ngsmPcdtFa3IUT6D44A62xRoziBvXAjWJqvl01uI91g/s1600/48-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Chemistry in Everyday Life"],
+    topics: ["Drugs and Their Mechanisms - Neurotransmitters"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1860,8 +1864,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ8375Mnlx1BtoFSKeXdwgJto-vOS6BgY6YS8BMNEwN_Po76DhAFf7eMoEJtj-iI8ElRvHN8-npcdkoF_JoA1ZIuUsT7i18Kao3BnS8GjOApoTaC8EjANuycwPttlyBIZA88MPfl-IWo25HDSldR-NJ7i4NglCbJYml7al3XpHyDpK-mLc5kKktmxdyx0/s1600/49-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Solutions"],
+    topics: ["Colligative Properties - Depression of Freezing Point"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1901,8 +1905,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV4QBXfhJEm_iufrbN--cvCfu1n3H7YysDJEuF5csVTtjocyNqdATVRD-uh9RNZOcbIUrJPFSYAO6tjs_adcYy4ohtI6vucWwpGLCrfVVsg9yRrd1A56EocONWlfRsfok8vxmOO9YHIyfshMqu24vIwhpG8MuFPA5NvEbf3oqGd9cANZ7ILNMeCMAvA64/s1600/50-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Environmental Chemistry"],
+    topics: ["Air Pollution - Chlorofluorocarbons (Freons)"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1925,8 +1929,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-b5rIJcfr3_XwN9qalNQ40EHwivh9VFRKteosaetDGLv3AKEPrNaT2-c2FjHECr4Y7vZuqDL3ZJvAJ96iOsFtOr1RGS2Ir5xvUPWuZv8nUDpmfX18VWww6VfM_FLnIQcTTcNmcX_TcnIR_12-pDnV_5Vl1TyAfKNQDN5t-UxBXyZGQmeHOu3CgdKmKog/s1600/51-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Equilibrium"],
+    topics: ["Ionic Equilibrium - pH and Dissociation Constants"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1949,8 +1953,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikFfO9T1oW9AMOyFE5jDSZsOuAXt_uqI3LzIg7dz17bLnqGQIle_shiIU1O8bS0tBVVxkWZOQwsiI_Y4VyiMJz7WWGIQJ7eFGVoBWN3lCiHF0XKbCDWGUcBnlSoddpGW8Ub5BROmzBc9naRPOgN2LQ0wb4GFaPFrli2Zte52h4_tVdoxpInpoctwMKexE/s1600/52-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Solutions"],
+    topics: ["Concentration Terms - Molarity and Dilutions"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1973,8 +1977,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZWLI5OksdB4EUUZ2VvDp75aY7_BCF4HFjjDlu7uDf2JSLycPV67oCer8P56ZFqUFRm8qWIQo4geN5jz_t0b6-geg7U7sb49Bu1rzZu1Vm9xgTghx6kz9rzu_Tz0wCzHPHOmjI75mk4d5nlPLPad0MYg6CwHkXSdH9YUpRq8cI8LRMdzoR7UdXEBAxGa0/s1600/53-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Structure of Atom"],
+    topics: ["Hydrogen Spectrum - Paschen Series"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -1997,8 +2001,10 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgri_ZW0bAJehjy4rD89crlApeOYYm4Q0zu0Fny_eSf3J3UP5GiIUV4Xicd6oCxTo1awyQRJ9EK4Ap7GoQ33jE0m2prmYtU_x_f2wKUlVOIg_odk7SCfFnHIGaH90JsN9XVjkvc6yeP3YrhGILVewll_lmgqUDhV6uWEMECK9xsJX98q3tC9pHpExUODA0/s1600/54-2.png",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Chemical Kinetics"],
+    topics: [
+      "Factors Affecting Rate of Reaction - Activation Energy and Arrhenius Equation",
+    ],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2021,8 +2027,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7uZYvRIr8PYzNUhQRKyUvrMw2q1EbPpZJhoURUJVE5QQYqLghsXBmIo64lWASR6u960U6Q4Sv4E8un_S9GmfZfGDlr9ANOUbTNGSXCHN0OJ4acqGImxlWZuVA_yEenM-9f-YQEM5PPhXM7MDABqzpVJ6wpEvRqLHZxYiZCUlN0zgc6nB7j9olVCcYocc/s1600/55-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Electrochemistry"],
+    topics: ["Electrochemical Cells - Nernst Equation"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2045,8 +2051,10 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZVaHa_9H1cA8RvUUKNh81I96nMvWxmFialQadbrt2p0MpycaHrtue4ydf1tMTaf5O74pxPMiTUQhk2RhH4PwcilMjnQYv7BseaURIlWfOX_eLkwzpNbTmkVbUzz0jgnYTxA9pEc1RXOiW6_p3uhN1M24obf-Xgl2_z8ffS-G1Ldk-mW-xNcN6GsLdjEo/s1600/56-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["The Solid State"],
+    topics: [
+      "Imperfections in Solids - Stoichiometric Defects, Metal Deficiency Defect",
+    ],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2069,8 +2077,10 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaDLpJzFqJJrGKDE9jXgjAWyFXAJteUFO5_7jSb5lCQwy-ro-VwZFr-w7HvQYCQnqF368VNELeMm8wctqFFhABo-j-M3OdADM6HAgGjJK2h2laZ0McIBo8WZELJOm5nzltuS_PwSRzoQUn16aI01i3L7KCAbz23UT4PglYmzPXL3fzUsMILuA_nTNmxmM/s1600/57-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Coordination Compounds"],
+    topics: [
+      "Crystal Field Theory - Electronic Configuration in Different Geometries",
+    ],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2093,8 +2103,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibb-RxyuqA05wKKce7fd9cJKfa5O9C47jsFxMslxynYjehJwPmud_n6HoM1Ff2niLP3BIxNJmEbY4uPYLp4wK4hSbLJJBBQLwb0_6yLdYa9pWlHDLFxQ0SahNxnD3uhk_U6zaHaskalmGAy9xrHK2dRZwTllELQ3oCF5tTlMmP04mttr4rG4fyvNFiLrQ/s1600/58-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Thermodynamics"],
+    topics: ["Spontaneity of Reactions - Gibbs Free Energy"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2117,8 +2127,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoDvVvfOv9BYLs-ppB79nv-YWgSkDItiIQYD9FElj-vwdv95iThvizQO4Igqzu-WsnO3188aVRyYI4wuUg8un7Hyn5FHfe3x8blSM9scVFp2IAmQz9aThPoCzRUJGf27UfvoHFPOCI9S_QNvw4ngzwEvNimASf2-Wvy9lzNKai6Jngvei9qcLpJHB0nIs/s1600/59-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Biomolecules"],
+    topics: ["Nucleic Acids - Structure of RNA Bases"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2141,8 +2151,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiARjSL74Sklz2THrhxqtqTLN2N6m4z1ieW1QbYOpzKmL4nDnrxc5nXIW3h7MwKW_sGr93TzHtfMWTizccP8lNKrUgLcHgYkFppxWAQSY_i1iNGjyv6bCqNVvmpNG0C482HDTVPjxm9tvJENaqzHIqyvQ5zhzE1jPTal1V6jx7i77cNJ0k6th-KO3okh5o/s1600/60-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Stoichiometry and Redox Reactions"],
+    topics: ["Redox Reactions - Calculation of Moles from Balanced Equations"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2182,8 +2192,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixkNDdUULipr3TzuExyD5WvfSu_PnuLH9Rv6rNXBWGPseKQ8XB43DYNlYC5OuNvduw4NIc8VMZZHAQJP9tKYXUD_P8ZnrfzJ3pQkaALmgZfLnQUnS_fNTodRP_UWLMbhLkB-X3H4ONcAJChm4ijfEN-t3Z-rHVi984nhBgY8772chz8z1r31uhtpMHXrQ/s1600/61-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Three Dimensional Geometry"],
+    topics: ["Distance of a Point from a Plane"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2223,8 +2233,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXYT1a1jKYTqTjuoWpBaRkP9HpkoRHbzaBZoHExeWWSHUwe-usfIAAdxjj_mOtkwChguGc4wJ0VGLYqFmhaTV2w1t2lAAaSnFAzOrVT0A2AsyG1nZ5Z1-QbNk0CymLs0KDEmLOS9mGy9_KghtEyyk0OQLQXbM4Pwqpaiu6CRnPij3a74zo-9d0mggAbTc/s1600/62-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Limits and Continuity"],
+    topics: ["Evaluation of Limits"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2264,8 +2274,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRuTBvr4Mht1bLhcZTN1nPS-tvPDtCk7QpAQa87POiJXD1Hvdc3KevYOA_JHEYfu6_xgLLGiX1e7JzYaPhKKKp7H_o4J5N_gk01cQT3oUZjE7QwzmHbmIH2iZZd_u6KjpW25uMuhn9lNTkCbmV6ZhgmLwflnaCnC4XhPWYqdSJF8rpe0QgJrkEsBSYLYE/s1600/63-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Vector Algebra"],
+    topics: ["Dot Product and Cross Product"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2305,8 +2315,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7mLVEMOXu0Ve3iEBSdY3KPFeebW4YB94A_R830LLVrkSUggr0bWtE_KiMLt-7M3OhkUpgTrvtJmPhf5uFDoR5QB0X-Ja3LQ8JLt2ZxYIwDDj8OuT1qLjzzO2ELvjcHjmj08DEIgnNmourmYw9W2_blaAswmvjyvSvvksA5_qr6rot2m2EHWsrUq27qhE/s1600/64-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Binomial Theorem"],
+    topics: ["Binomial Coefficients"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2346,8 +2356,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimj9Px2DGqc79bVh_SLQvIhs8BOHAKGMF0nW-2w5hKu2b-Avff-RACNDIgytJ84rkIrEUsW5YkorRQNnhGpmbV5AHnWFnUYMCfWkXkB08Jowk8wxXQI9MNQNz7z6n3x83zbr0oUl1giNmBHfuuMqPNThSFPZK7ee-z5Nui0oHWpBsq6E0VYE6at8ZDgHw/s1600/65-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Conic Sections"],
+    topics: ["Tangents and Normals"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2387,8 +2397,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4be18xxR9UojcK7CwZzo9bBH7O4ObCDWireY7H4oJQ4F7A-K-a5VipbbirNQoDRQdojCrX_zLqrUgtCwzCqbxtM345KCwkv_jKYE5RhMSFVQmgxb-vz_zFa-0NYqIa5cAU_BirLUxctqiHbDsA6x9GoHC0nbgUwCrVYQGa56XGcxhI6JFUYD2N8ni7tk/s1600/66-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Probability"],
+    topics: ["Probability of Events and Unique Solutions"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2428,8 +2438,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Um7ABW9VrBlQFIBCFXv_v887WzsYHsHc31VMMifPKvIxHwSUhK3yKP4M2c4F1fS-l0s5hWSAh3Puo1lbb7PBcBixtyUOT33-sKdlGoHri5POnGjf-s1FqNQKP7_2nEDb2HoQ78IpJ1cD9FKrbCR9ANpba83FcRBh7OYWJYXW5b-4dbuX6M8XztZToMU/s1600/67-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Trigonometric Functions"],
+    topics: ["Trigonometric Identities"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2469,8 +2479,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX64fteTFR0OEHnKp8YKC6T-B0q60zw7AXZd-q-EXfvyEAiVi-lXZD57FCLisGxYol-FWWe-EVLNXdjoPaVSkBZQLkoanCzaWiw2KSXeP41zJ5ogaKYIRBtJkrgHqP-IEd1kQ4lkw93_ADToROv8N380t3y7RmsyLyj5w_W7Rw9vfNWlpDGMIjM6bmcIw/s1600/68-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Geometry of Triangles"],
+    topics: ["Ratios and Areas of Triangles"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2510,8 +2520,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3p1Nrg2V32psn63172mziMFRc6zOCjDLLJ16lF8DKIrAwEun-W_lQx6ckfOeHBVmILFE7r2PtqQD0RLOtuacOtWv6PH2rdMcnVPiOcuryUOCGPnc8_G_emvzEFtEIZsC1VAn81Q9rnxdpwKbu2zcHTwQmyORwOvhUXfF0RE3IAFbRHyBCNY9TkwsV-nY/s1600/69-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Matrices"],
+    topics: ["Matrix Equations and Properties"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2551,8 +2561,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4VSYMsXoaMaWjJPOCjXpFtiAJMbEol5DNiRNfDpba5eDSBm284gcyIPLqPFab5kGLjuWiIYN3SiidXFTYzL9PnEL_9hgQ5uyvVqLeKGwggZ-6HKevU4Zc_TdIhQmUxtVYVQltwLa75k3tyc978AgOM5cOGL5mNeFpF8e1LvtJ5HzN9U0JJzLxcbB4O0w/s1600/70-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Differential Equations"],
+    topics: ["Solutions to Differential Equations"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2592,8 +2602,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEH0CE8oj9ObqHoD4AQGH4vmN5C2-vTq1zZyCbqZE_5H1HzKNH0akuIWwJMMF8PrE1QT9qFN2WZ99CTip1suRB-sQ1pasbqjSDs6sziJ8galwbd06YSA6cGOWF9QZwNWibMavLphngZab6SWa60I8i3KfgoArkUobsfvXkn169jKNeSnNyWa3gXmsGUYo/s1600/71-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Area Under Curves"],
+    topics: ["Area between Curves"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2633,8 +2643,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSZ6BYKLXp2e2TezMl_91NTrXWd17IydTiRJpv7kgKWPl8v9tfeasoC0SfYw4qVsGH3pBkVobpTBxsWhvXTw19Kvc0IF-5XMAfIOsMeot8CfCrIp3Rk2Ua86mmWoEf1ykaaoWPiXs-KTueFqBuMzScy8LgLzVFB6v-WJS2SkET7AqIa_sobc_Y6rTvS2k/s1600/72-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Matrices and Determinants"],
+    topics: ["Properties of Determinants"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2674,8 +2684,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivg2-qcJ6KoLraJUK_1mM2knR-cEGNISMk_Pm20f5xUrWPK8LClO4SPLlrZsSmeh3uA6iyi7gN-jDtttBaNXqpVw44WXrzk38juYOUtQlMxI8aJawmkFz2oeCQGMxwc5zJK389chNXoWzVMQ2cnhskevP5c_6bT6BeOuH51GBHDBhWv0ISYRb3XthEsVM/s1600/73-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Three Dimensional Geometry"],
+    topics: ["Distance from a Plane and Parallel Lines"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2715,8 +2725,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCFikE-kVR_aDxE0m59Hd1eh_ANFZpQI9_vCas0n8A2fjk4lNeeyZAlffmQdI4IPDlKTAZC7MeOCdmmoTddWG4Ul18DizSxXBPVQiFKlP5ksUC1kg2c67yax0NAF4Z79ltsD9UNpj5cooImzaSIoSgJU84La2lQj89pch7mT3GSD2LthikwT9-YxM1nuE/s1600/74-2.png",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Logarithms and Arithmetic Progressions"],
+    topics: ["Properties of Logarithms and AP Series"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2756,8 +2766,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaJ5rTO8TRoL2RiCdzKUYdAu8dBXCFR_q3R8I10mhFEgSjsJt_k4EACIVQf6qiHl2UIToDYeWEF0ZJPGl7gllijgOIAxHSTENKJJLgEQPzj5pLa4MDEZbM13c80VUjZtzONmR2WcXPHLohDKu--hmAry3lqshvUdxGrgi5DnjbeEOm0kRAQccfpmlHkCw/s1600/75-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Complex Numbers"],
+    topics: ["Roots of Equations"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2797,8 +2807,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyYIwtvSehWNhRUHLVxZtNnGtYLBOF6cXHqds-PwrNftyNvR4391AsY5RRVemoOIYhNgo34xFuUQrQPkWFLe9ZZStZMwPbxpdfcPxwivK9n7_lQIwdHYF7wYi1uo4nEcFi2r-Oj0HwQslQhcnys7DnioCzLS2SGoXIRBAiZMlYMM-6kwEChamwy4ydcZQ/s1600/76-2.png",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Relations and Functions"],
+    topics: ["Types of Relations"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2838,8 +2848,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRsTlUxDD5yjqKP4A3LMpQdu4Mv2LBomWOYsRJYMzevrAeREo072yNWNKG1TcChvjhg-PKLCuzwuALESotPJxnSOGbAWe7WQbayPX6_9qfXa7fZ5dvkH9o9sI7x1wy5ytDk1Yj6LMkMfV8ByuOZHowTos6lNaL3_M__zkdHLAJtvltJFhjI3gvJOOaKxg/s1600/77-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Mathematical Logic"],
+    topics: ["Logical Equivalence"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2879,8 +2889,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXx_fDKWS4M4XIusvQqZNWNOBA-GkUfwDJPNv3zxTKMptNdWrrXf5rx92hKjvbAUs4-LloQZTSv_LP_rG7iuAZHSOrD0xEHds5-0Ma9c7h_BIVgAY27bSGpZptd6n-Lj0cHAc4hAQ5VOWQbJpqySvtj5RLResdHp4VooxxE4ZRk7VZGMlFoEj_qEJimrw/s1600/78-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Continuity and Differentiability"],
+    topics: ["Differentiability and Continuity at a Point"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2920,8 +2930,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxJxh7dMpxWrVFXVygTckWVPJ5h0aPqiQu0JxxqD5-cnp9vKIn1uI_rFK8bRETH0ortZ66CSqKWbyOK61JWXa90O-WiNTBJYbIgXAGpC1T7a7w8Gp4XdGxwnoiBeUlDdLO7WY74mox2ak8E1PJZnE_DFtleghomNpkGFh-YWdxKxuh-C-Pk97pixmpNZI/s1600/79-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Functions and Graphs"],
+    topics: ["Greatest Integer Function and Roots of Equations"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2961,8 +2971,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKiBf231M3rBxpQw4UocKPm3ZCvWniHJ3RiXAZeSugTsHhaQTTZlVVE9qfgBQNYGdQ30ahZ0nX1712xWuqjPNw-z54BFgPIpraMmEvfgJA-DtT2HbvicZzp4slNRTT0lRB1tFm3SNg55oVEr15T5-bhvh3Obn01UwqTl94vmwdY24mwX0hlLk3HKELgss/s1600/80-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Probability"],
+    topics: ["Events and Their Probabilities"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -2985,8 +2995,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9y7ylSNDsSsKIamVf52Cpb3EinpX3foAmEHVh7gbpZ_mUGtxc3GmDhx8Y0b8gxJoKFnRnL_mOI-wlMklIWhogYkjn9kNy1jOVswQ7LIfopW39j4whFCCcU4_W_FEltb_LiCVCEmgdst_WMXDo9BBEuBLxW8lDOxXmFoXRddyzvGAx9NrFXZg9azwBBD8/s1600/81-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Conic Sections"],
+    topics: ["Ellipses and Circles"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3009,8 +3019,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZf0yZ8-0pf322ll-k7zXOXXwJlkItcMWtyifLZRkiE0rSRdasrGzWSAiZ6Uag7sMFq0uMxumyANcU0Cbj9c8kzcj372JC45yfy5U0CNQCBSyvhjSmoBn-M4ic2GfZ5gACtbupfZt0UQg80hTbynLv4OF_Wzq8rVm6gt7LO9StYjFZPJEfdb0tHx5DaJA/s1600/82-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Binomial Theorem"],
+    topics: ["Summation of Series"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3033,8 +3043,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMzdsKKv3zcRzIURwRRNKvGPk9r39JisLpwlfVDUt3v7GWpILxYiGbrldQYcGNeAqTRAZjv3xlsAH9ayRse2E2voVuhRn7uIrHXkWhw02LPpHDZATwt6kGtZlN0UhLVWJu9ieW-o2zGTQeQPMy1eecOzy-Rzwq2KlM21uRlWuLsZDmr6F_XEQsTnuu8rc/s1600/83-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Integration"],
+    topics: ["Definite Integrals"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3057,8 +3067,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1buHX3ols0ZRmtCHf8X93HdvBJQaQtG2Zp0CadYKhB5EmeiJ8jiCQNHQZPYcNqdfz57bBqR3Bwvmx-6g5NY3Pq6VtOu3gIDsi3opR3kDIdv1BpmbT1VXh8L8OaudegSJIr1p1G3s_MxvbV0U-It4zsb3l8KJTuU-jiuRAylBOxh7QZia6EW6Ap2uois4/s1600/84-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Permutations and Combinations"],
+    topics: ["Arrangements with Restrictions"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3081,8 +3091,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQSqo8ZwUPZmdatLbAaExMPdPgyczKNDk0C1z1Xp_HXOvVnLf3_n3EjkeEa2H8vCDKVpuJgGLxQOkq4WbJqwYFuyj6ytR10po2P78Bv5OQk4itbsV_pdv58byczguH8Gnk2vRUFMSC6u7-9-BP7hCoH4iROT1S19VwbPS6cganH7NLHjmNjMKg6EgbsNw/s1600/85-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Quadratic Equations"],
+    topics: ["Roots and Integer Solutions"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3105,8 +3115,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh94j0LToS38Ig-WPrC9tAC5jDXjgHAveYohpKyX6cgfFFO1dQdYbVFfVuWfTKtbER4PNsPD0RN2hbtCX_p9DU1cgaGGEuNL5XZoKQFGYKE2XRCClQn6JKKOFPfdNms8XqFfKxL6bRJJvKuT6ZFXc6gbOcSYnDIEUxzAPBoJhe_cjB5pXfJrpRLCF1mQXo/s1600/86-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Permutations and Combinations"],
+    topics: ["Selection Problems"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3129,8 +3139,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidhENBlu487JQs8_5-zsBDrxG__GeCfsexclFR_UGwvWdnrUfB-nSlJzwR20lHgE3Fl9tKoZrNCm7jFS3llKEo-OoJ0T1kBVlcQqBuDszSk5b_d0PMKZjBNR02r7Z7YfOgE8pSHE7oEYP-ZqoaLgqpxaezugmHlIqZnywPYXpquYWjRB2Jc2bdN8wuyU4/s1600/87-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Conic Sections"],
+    topics: ["Tangents to Conics and Minimum Length"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3153,8 +3163,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6FLqnHtI4pt8yyAAJOpKBVCvFxd_fzN9eR9eqEtVJPfGhf3W3PClkl8NAi79aCCqKjwzmG8Iz7SJ37IlzLXRaCbYJAy5yenfOe3cBUFlnZWVN2OpVvO9TDBZj_zoFbOD0Kb3XUThVt0lpaqko6AIbuRiyAANBz0CEl2MUQzQvdlgmZcX5VHP-mkM-4CU/s1600/88-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Integration"],
+    topics: ["Trigonometric Integrals"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3177,8 +3187,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhbtsEUtf7GTOp0ONxfBg4_bxYGXp7GiDqRjtgQNABfdYikyLuVfyWcXJlcEhx6Nda0tvQvuHOa3jtuasAoHXmWs1ko0ITh5Gk0BZS0OyHe0P6gJQQi8wtMte2JF-GXf__oEUwPfUbcO7w6iIg9cuM_W3JZHAoMMDDoZ3zhcPfgloeTiBqUMTw2b_Ra6Q/s1600/89-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Three Dimensional Geometry"],
+    topics: ["Shortest Distance between Skew Lines"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -3201,8 +3211,8 @@ const questions = [
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAUZ2Tn2sIexbOYjecsMTAE17Nnki428XxSb-E8AjulYD7xuk-FDFcLRomLxmKrvIthOwpMVBjDg7iL9LY5QRFfjNSvaJOZpmlKLHjgXKx_77UpNg-yBxnIaXEQElOnt-FbhD9-f0Q-I8GxfH0-w30NRwYDXNeWIXAvwREPvP1EcJexq25lsr75v9WNAE/s1600/90-2.jpg",
     },
-    chapters: [""],
-    topics: [""],
+    chapters: ["Sequences and Series"],
+    topics: ["Geometric Progressions and Sum of Series"],
     isMarked: false,
     isReviewed: false,
     attempted: false,
@@ -5208,11 +5218,18 @@ async function displayQuestion2(index) {
     statusText = "Reviewed";
   }
 
+  let chapterTopicText = "";
+  if (question.chapters) {
+    chapterTopicText = `Chapter: ${question.chapters}`;
+  } else if (question.topics) {
+    chapterTopicText = `Topic: ${question.topics}`;
+  }
+
   let questionHtml = `
     <div class="main-container3">
       <div class="header3">
         <div class="chapter-topic3">
-          <h3>Chapter: ${question.chapters} | Topic: ${question.topics}</h3>
+          <h3>${question.chapters ? `${question.chapters}` : ""}</h3>
         </div>
         <div class="open-sidebar-btn2" onclick="openSidebar()">
           <i class="fas fa-bars"></i>
@@ -5314,9 +5331,13 @@ async function displayQuestion2(index) {
 
       <div class="solution-container3">
         <div class="solution3">
-          <div class="solution-text3"><h3>Solution:</h3><p>${
-            question.solution.text
-          }</p></div>
+          <div class="solution-text3"><h3>Solution:</h3>
+          ${
+            question.topics
+              ? `<p><strong>Topic:</strong> ${question.topics}</p>`
+              : ""
+          }
+          <p>${question.solution.text}</p></div>
           ${
             question.solution.image
               ? `<div class="solution-image3"><img src="${question.solution.image}" alt="Solution Image"></div>`
