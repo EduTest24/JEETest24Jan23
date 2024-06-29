@@ -4155,9 +4155,9 @@ function showPerformanceAnalysis() {
           <div id="overallAnalysisBarChart" class="chart-container"></div>
 
 
-<h2 style="text-align: center; margin:5px;">Time Spent per Question</h2>
+<h2 style="text-align: center; margin-top:20px;margin-bottom: 5px;">Time Spent per Question</h2>
 <div id="timeAnalysisChart" class="chart-container"></div>
-<div id="pagination">
+<div id="pagination" style="margin:10px;">
 <button id="prevBtn" class="disabled"><i class="fas fa-arrow-left"></i></button>
 <span id="pageNumbers"></span>
 <button id="nextBtn"><i class="fas fa-arrow-right"></i></button>
@@ -4165,7 +4165,7 @@ function showPerformanceAnalysis() {
 
 
 
-<h2 style="text-align:center;margin : 5px">Filtering Questions By Condition</h2>
+<h2 style="text-align:center;margin-top:20px;margin-bottom: 5px;">Filtering Questions By Condition</h2>
 <div id="filter-container">
 <div id="filter-button">Filter Options</div>
 <div class="dropdown-content">
@@ -4192,10 +4192,8 @@ function showPerformanceAnalysis() {
 <div id="question-box-container" class="analysis-content2"></div>
 </div>
 
-<div class="graph">
-<h3>Subjects Comparison</h3>
+<h3 style="text-align:center;margin-top:20px;margin-bottom: 5px;">Subjects Comparison</h3>
 <div id="subjectWiseChart" class="chart-container"></div>
-</div>
     
 </div>
         `;
