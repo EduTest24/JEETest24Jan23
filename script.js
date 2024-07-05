@@ -3416,10 +3416,7 @@ exitBtn.onclick = () => {
 };
 
 function confirmStartTest() {
-  var confirmation = confirm("Are you sure you want to start the test?");
-  if (confirmation) {
-    showExamContainer();
-  }
+  showExamContainer();
 }
 
 function showExamContainer() {
@@ -3431,6 +3428,7 @@ function showExamContainer() {
   main.classList.remove("active");
   main.style.display = "none";
   fullscreen();
+  displayQuestion(currentQuestionIndex);
 
   // Set user name in header
   var userNameHeader = document.getElementById("userNameHeader");
@@ -5279,8 +5277,8 @@ async function displayQuestion2(index) {
           if (optionIndex === question.userSelectedOption) {
             optionClass +=
               optionIndex === question.correctAnswer
-                ? " correctSol"
-                : " incorrectSol";
+                ? " correctSol correct-tick"
+                : " incorrectSol incorrect-tick";
           }
           if (
             optionIndex === question.correctAnswer &&
@@ -5291,8 +5289,8 @@ async function displayQuestion2(index) {
         } else if (question.type === "MCQ") {
           if (question.userSelectedOption.includes(optionIndex)) {
             optionClass += question.correctAnswer.includes(optionIndex)
-              ? " correctSol"
-              : " incorrectSol";
+              ? " correctSol correct-tick"
+              : " incorrectSol correct-tick";
           }
           if (
             question.correctAnswer.includes(optionIndex) &&
