@@ -4059,7 +4059,9 @@ function confirmSubmit() {
   document.getElementById("body").style.background = "white";
   clearInterval(timerInterval);
   showPerformanceAnalysis();
-  submitButton();
+  if (elapsedMinutes > 15) {
+    submitButton();
+  }
 }
 
 document.getElementById("cancelSubmit").addEventListener("click", () => {
@@ -5257,6 +5259,19 @@ function switchToPerformanceAnalysis() {
   showPerformanceAnalysis();
 }
 
+function getDifficultyClass(difficulty) {
+  switch (difficulty) {
+    case "Easy":
+      return "difficulty-easy";
+    case "Medium":
+      return "difficulty-medium";
+    case "Hard":
+      return "difficulty-hard";
+    default:
+      return "";
+  }
+}
+
 // Function to display a question
 async function displayQuestion2(index) {
   const questionContainer2 = document.getElementById("question-content2");
@@ -5331,7 +5346,12 @@ async function displayQuestion2(index) {
         <div class="question-info3">
           <div class="question-text3">
             <div class="question-number3">
-                      <span class="Quest-Num">${index + 1}</span>
+                      <div>
+              <span class="Quest-Num">${index + 1}</span>
+                      <span class="${getDifficultyClass(
+                        question.difficulty
+                      )}">${question.difficulty}</span>
+              </div>
                       <button class="report-btn" ${
                         question.report ? "disabled" : ""
                       } onclick="openReportModal(${index})"><i class="fas fa-exclamation-triangle"></i></button>
