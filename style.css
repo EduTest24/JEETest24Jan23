@@ -2948,3 +2948,15 @@ on small screens
   font-weight: bold;
   margin-left: 8px;
 }
+.difficulty-easy {
+  font-weight: bold;
+  color: green;
+}
+.difficulty-medium {
+  color: orange;
+  font-weight: bold;
+}
+.difficulty-hard {
+  color: red;
+  font-weight: bold;
+}
