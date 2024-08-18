@@ -4059,6 +4059,7 @@ function confirmSubmit() {
   document.getElementById("body").style.background = "white";
   clearInterval(timerInterval);
   showPerformanceAnalysis();
+  displayAndDownloadChapterWeightage(questions);
   if (elapsedMinutes > 15) {
     submitButton();
   }
@@ -4342,7 +4343,7 @@ function showPerformanceAnalysis() {
 <h3>Subjects Comparison</h3>
 <div id="subjectWiseChart" class="chart-container"></div>
 </div>
-    
+    <div id="table-container"></div>
 </div>
         `;
 
@@ -5803,3 +5804,114 @@ function preventInspect() {
 disableRefresh();
 protectContent();
 preventInspect();
+// Function to calculate chapter-wise marks weightage
+function calculateChapterWeightage(questions) {
+  const chapterMarks = {};
+  const chapterQuestions = {};
+
+  questions.forEach((question, index) => {
+    question.chapters.forEach((chapter) => {
+      if (!chapterMarks[chapter]) {
+        chapterMarks[chapter] = 0;
+        chapterQuestions[chapter] = { count: 0, questions: [] };
+      }
+      chapterMarks[chapter] += 4; // Each question contributes 4 marks
+      chapterQuestions[chapter].count += 1;
+      chapterQuestions[chapter].questions.push(index + 1);
+    });
+  });
+
+  return { chapterMarks, chapterQuestions };
+}
+
+function generateTableHTML(chapterMarks, chapterQuestions) {
+  let html = `
+    <table>
+      <thead>
+        <tr>
+          <th class="sortable">Chapter Name</th>
+          <th class="sortable">Number of Questions</th>
+          <th class="sortable">Question Numbers</th>
+          <th class="sortable">Marks Weightage</th>
+        </tr>
+      </thead>
+      <tbody>
+  `;
+
+  Object.keys(chapterMarks).forEach((chapter) => {
+    html += `
+      <tr>
+        <td>${chapter}</td>
+        <td>${chapterQuestions[chapter].count}</td>
+        <td>${chapterQuestions[chapter].questions.join(", ")}</td>
+        <td>${chapterMarks[chapter]}</td>
+      </tr>
+    `;
+  });
+
+  html += `
+      </tbody>
+    </table>
+    <button class="button" onclick="downloadChapterWeightageCSV()">Download Chapter Weightage CSV</button>
+  `;
+
+  return html;
+}
+
+function displayAndDownloadChapterWeightage(questions) {
+  const { chapterMarks, chapterQuestions } =
+    calculateChapterWeightage(questions);
+  const tableHTML = generateTableHTML(chapterMarks, chapterQuestions);
+
+  document.getElementById("table-container").innerHTML = tableHTML;
+
+  // Add sorting functionality
+  document.querySelectorAll("th.sortable").forEach((header) => {
+    header.addEventListener("click", () => {
+      const table = header.closest("table");
+      const index = Array.from(header.parentNode.children).indexOf(header);
+      const rows = Array.from(table.querySelectorAll("tbody tr"));
+      const isAscending = !header.classList.contains("sorted-asc");
+
+      rows.sort((rowA, rowB) => {
+        const cellA = rowA.children[index].textContent.trim();
+        const cellB = rowB.children[index].textContent.trim();
+
+        return isAscending
+          ? cellA.localeCompare(cellB, undefined, { numeric: true })
+          : cellB.localeCompare(cellA, undefined, { numeric: true });
+      });
+
+      rows.forEach((row) => table.querySelector("tbody").appendChild(row));
+
+      table
+        .querySelectorAll("th.sortable")
+        .forEach((th) => th.classList.remove("sorted-asc", "sorted-desc"));
+      header.classList.add(isAscending ? "sorted-asc" : "sorted-desc");
+    });
+  });
+}
+
+function downloadChapterWeightageCSV() {
+  const table = document.querySelector("table");
+  let csvContent = "data:text/csv;charset=utf-8,";
+  const headers = Array.from(table.querySelectorAll("thead th"))
+    .map((th) => th.textContent)
+    .join(",");
+  csvContent += headers + "\n";
+
+  table.querySelectorAll("tbody tr").forEach((row) => {
+    const cells = Array.from(row.querySelectorAll("td"))
+      .map((td) => td.textContent)
+      .join(",");
+    csvContent += cells + "\n";
+  });
+
+  const encodedUri = encodeURI(csvContent);
+  const link = document.createElement("a");
+  link.setAttribute("href", encodedUri);
+  link.setAttribute("download", "chapter_weightage.csv");
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
