@@ -2960,3 +2960,120 @@ on small screens
   color: red;
   font-weight: bold;
 }
+
+.LtMain-container {
+  display: flex;
+  gap: 30px;
+  background: linear-gradient(45deg, #623fce, #c9b7ff);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+
+  margin-top: 10px;
+}
+
+.LtLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.LtRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  gap: 20px;
+}
+
+.LtCircular-progress {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.LtCircular-progress svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.LtCircular-progress circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+
+.LtCircular-progress circle:first-child {
+  stroke: #ddd;
+}
+
+.LtCircular-progress circle#LtProgress {
+  stroke: #00bfa5;
+  stroke-dasharray: 314;
+  stroke-dashoffset: 314;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.LtProgress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.LtDifficulty {
+  display: flex;
+  flex-direction: column;
+}
+
+.LtTextual-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.LtTextual-info i {
+  margin-right: 5px;
+}
+
+.LtBar {
+  height: 7px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.LtProgress-bar {
+  height: 100%;
+  border-radius: 5px;
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+.LtDifficulty.LtEasy .LtProgress-bar {
+  background-color: #39ff14; /* Neon Green */
+  box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14,
+    0 0 40px #39ff14;
+}
+
+.LtDifficulty.LtMedium .LtProgress-bar {
+  background-color: #ff8c00; /* Neon Orange */
+  box-shadow: 0 0 10px #ff8c00, 0 0 20px #ff8c00, 0 0 30px #ff8c00,
+    0 0 40px #ff8c00;
+}
+
+.LtDifficulty.LtHard .LtProgress-bar {
+  background-color: #ff073a; /* Neon Red */
+  box-shadow: 0 0 10px #ff073a, 0 0 20px #ff073a, 0 0 30px #ff073a,
+    0 0 40px #ff073a;
+}
