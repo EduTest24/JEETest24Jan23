@@ -4239,6 +4239,61 @@ function showPerformanceAnalysis() {
             </div>
           </div>
 
+          <div class="LtMain-container">
+      <div class="LtLeft">
+        <div class="LtCircular-progress">
+          <svg>
+            <circle cx="60" cy="60" r="50"></circle>
+            <circle cx="60" cy="60" r="50" id="LtProgress"></circle>
+          </svg>
+          <div class="LtProgress-text">
+            <span id="LtAttempted">0</span>/<span id="LtTotal">100</span>
+          </div>
+        </div>
+      </div>
+      <div class="LtRight">
+        <div class="LtDifficulty LtEasy">
+          <div class="LtTextual-info">
+            Easy:
+            <span
+              ><span id="LtEasy-attempted">0</span>/<span id="LtEasy-total"
+                >0</span
+              ></span
+            >
+          </div>
+          <div class="LtBar">
+            <div class="LtProgress-bar"></div>
+          </div>
+        </div>
+        <div class="LtDifficulty LtMedium">
+          <div class="LtTextual-info">
+            Medium:
+            <span
+              ><span id="LtMedium-attempted">0</span>/<span id="LtMedium-total"
+                >0</span
+              ></span
+            >
+          </div>
+          <div class="LtBar">
+            <div class="LtProgress-bar"></div>
+          </div>
+        </div>
+        <div class="LtDifficulty LtHard">
+          <div class="LtTextual-info">
+            Hard:
+            <span
+              ><span id="LtHard-attempted">0</span>/<span id="LtHard-total"
+                >0</span
+              ></span
+            >
+          </div>
+          <div class="LtBar">
+            <div class="LtProgress-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 <!-- Bar Graph -->
           <div id="overallAnalysisBarChart" class="chart-container"></div>
@@ -4290,6 +4345,75 @@ function showPerformanceAnalysis() {
     
 </div>
         `;
+
+  // Leetcode interface starts const easyQuestions = questions.filter(
+  const easyQuestions = questions.filter((q) => q.difficulty === "Easy").length;
+  const mediumQuestions = questions.filter(
+    (q) => q.difficulty === "Medium"
+  ).length;
+  const hardQuestions = questions.filter((q) => q.difficulty === "Hard").length;
+
+  const easyAttempted = questions.filter(
+    (q) => q.difficulty === "Easy" && q.attempted
+  ).length;
+  const mediumAttempted = questions.filter(
+    (q) => q.difficulty === "Medium" && q.attempted
+  ).length;
+  const hardAttempted = questions.filter(
+    (q) => q.difficulty === "Hard" && q.attempted
+  ).length;
+
+  // Update circular progress bar
+  const circle = document.querySelector("#LtProgress");
+  const radius = circle.r.baseVal.value;
+  const circumference = 2 * Math.PI * radius;
+  const ltpercentage = (attemptedQuestions / totalQuestions) * 100;
+
+  circle.style.strokeDasharray = `${circumference} ${circumference}`;
+  circle.style.strokeDashoffset = circumference;
+  setTimeout(() => {
+    const offset = circumference - (ltpercentage / 100) * circumference;
+    circle.style.strokeDashoffset = offset;
+  }, 100);
+
+  document.getElementById("LtAttempted").textContent = attemptedQuestions;
+  document.getElementById("LtTotal").textContent = totalQuestions;
+
+  // Update linear progress bars
+  const easyPercentage = (easyAttempted / easyQuestions) * 100;
+  const mediumPercentage = (mediumAttempted / mediumQuestions) * 100;
+  const hardPercentage = (hardAttempted / hardQuestions) * 100;
+
+  document.getElementById("LtEasy-attempted").textContent = easyAttempted;
+  document.getElementById("LtEasy-total").textContent = easyQuestions;
+  document.querySelector(".LtDifficulty.LtEasy .LtProgress-bar").style.width =
+    "0";
+  setTimeout(() => {
+    document.querySelector(
+      ".LtDifficulty.LtEasy .LtProgress-bar"
+    ).style.width = `${easyPercentage}%`;
+  }, 100);
+
+  document.getElementById("LtMedium-attempted").textContent = mediumAttempted;
+  document.getElementById("LtMedium-total").textContent = mediumQuestions;
+  document.querySelector(".LtDifficulty.LtMedium .LtProgress-bar").style.width =
+    "0";
+  setTimeout(() => {
+    document.querySelector(
+      ".LtDifficulty.LtMedium .LtProgress-bar"
+    ).style.width = `${mediumPercentage}%`;
+  }, 100);
+
+  document.getElementById("LtHard-attempted").textContent = hardAttempted;
+  document.getElementById("LtHard-total").textContent = hardQuestions;
+  document.querySelector(".LtDifficulty.LtHard .LtProgress-bar").style.width =
+    "0";
+  setTimeout(() => {
+    document.querySelector(
+      ".LtDifficulty.LtHard .LtProgress-bar"
+    ).style.width = `${hardPercentage}%`;
+  }, 100);
+  // Leetcode inteface ends
 
   document.getElementById("user-name").innerText = userName.toUpperCase();
   // Update progress bars
